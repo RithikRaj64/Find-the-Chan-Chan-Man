@@ -16,8 +16,9 @@ div.boxes{
 
 .hint{
     position: absolute;
-    top: 400px;
-    left: 20px;
+    top: 55%;
+    transform: translateY(-50%);
+    left: 200px;
 }
 
 .desc{
@@ -28,4 +29,12 @@ div.boxes{
 #pts{
     text-align: center;
     font-family: sans-serif;
+}
+
+.rules{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: relative;
+    right: 10px;
+    top: 150px;
+    float: right;
 }
