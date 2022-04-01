@@ -1,0 +1,33 @@
+body{
+    background-color: aquamarine;
+}
+
+.box{
+    height: 85px;
+    width: 70px;
+}
+
+div.boxes{
+    position: absolute;
+    /*top: 200px;
+    left: 575px*/ 
+    top: 200px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.hint{
+    position: absolute;
+    top: 400px;
+    left: 20px;
+}
+
+.desc{
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#pts{
+    text-align: center;
+    font-family: sans-serif;
+}
